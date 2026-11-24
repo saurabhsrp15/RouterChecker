@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Foreground layer for the adaptive launcher icon.
+
+  Canvas: 108x108 dp (adaptive icon safe zone is the central 72x72 dp area).
+  Design: Classic WiFi / router motif drawn in white, centred on the canvas.
+
+  Elements (all in white #FFFFFF):
+    1. Bottom dot  — the router/access-point indicator
+    2. Inner arc   — close-range WiFi arc
+    3. Middle arc  — mid-range WiFi arc
+    4. Outer arc   — far-range WiFi arc
+
+  Paths are hand-computed for a 108×108 viewBox so the icon sits cleanly
+  within the adaptive-icon safe area (inset 18dp on each side).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ── dot (router indicator) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,72
+            m-5,0
+            a5,5 0 1,0 10,0
+            a5,5 0 1,0 -10,0" />
+
+    <!-- ── inner arc (r ≈ 12) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,65
+            a16.97,16.97 0 0,1 24,0
+            l-3.5,3.5
+            a12,12 0 0,0 -17,0
+            Z" />
+
+    <!-- ── middle arc (r ≈ 24) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,59
+            a25.46,25.46 0 0,1 36,0
+            l-3.5,3.5
+            a20.5,20.5 0 0,0 -29,0
+            Z" />
+
+    <!-- ── outer arc (r ≈ 36) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,53
+            a33.94,33.94 0 0,1 48,0
+            l-3.5,3.5
+            a29,29 0 0,0 -41,0
+            Z" />
+
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adaptive icon launcher — standard (square mask applied by launcher)
+  References:
+    background : @color/ic_launcher_background  (#1565C0)
+    foreground : @drawable/ic_launcher_foreground (white WiFi/router vector)
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>

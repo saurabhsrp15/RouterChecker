@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Router Checker</string>
+
+    <!-- General UI -->
+    <string name="btn_check_connectivity">Check Connectivity</string>
+    <string name="btn_scan_devices">Scan Devices</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_stop">Stop</string>
+
+    <!-- Status labels -->
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_checking">Checking…</string>
+    <string name="status_scanning">Scanning network…</string>
+    <string name="status_unknown">Unknown</string>
+
+    <!-- Router info -->
+    <string name="label_router_ip">Router IP</string>
+    <string name="label_gateway">Gateway</string>
+    <string name="label_signal_strength">Signal Strength</string>
+    <string name="label_ssid">Network (SSID)</string>
+    <string name="label_dns">DNS</string>
+    <string name="label_ping">Ping</string>
+    <string name="label_latency">Latency</string>
+    <string name="label_devices_found">Devices Found</string>
+    <string name="label_internet_access">Internet Access</string>
+    <string name="label_local_ip">Local IP</string>
+
+    <!-- Ping results -->
+    <string name="ping_success">Reachable (%1$d ms)</string>
+    <string name="ping_failed">Unreachable</string>
+    <string name="ping_timeout">Timeout</string>
+
+    <!-- Errors / messages -->
+    <string name="error_no_wifi">No Wi-Fi connection detected.</string>
+    <string name="error_permission_denied">Location permission is required to read Wi-Fi details.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="msg_no_devices">No devices found on the network.</string>
+    <string name="msg_scan_complete">Scan complete — %1$d device(s) found.</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="cd_wifi_icon">Wi-Fi signal icon</string>
+    <string name="cd_router_icon">Router icon</string>
+    <string name="cd_status_indicator">Connection status indicator</string>
+</resources>
